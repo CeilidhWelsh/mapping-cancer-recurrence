@@ -70,7 +70,20 @@ For further details on the installation of scikit-rt please reference the scikit
    - Uses `BetterViewer` from the scikit-rt python package to overlay relevant structures onto medical images.
 
 ## Configuration
-Modify the following parameters in the jupyter notebook example to customise the analysis for the relevant trial data. 
+Modify the trial parameters in the jupyter notebook example to customise the analysis for the relevant trial data:
+- trial: The name of your trial (e.g., "trial_A", "trial_B").
+- working_dir: The main directory the classification notebook and code for additional functionality is located. 
+- data_dir: The directory where your raw patient trail data is stored.
+- output_dir: The directory where you want to store output files.
+- pfile_dir: The directory where the parameter files for Elastix are located.
+- elastix_dir: The installation directory for Elastix (details can be found in the scikit-rt Registration documentation). 
+- control_arm: The dose prescription for the control arm (if relevant).
+- trial_arm_one: The dose prescription for trial arm one (if relevant).
+- trial_arm_two: The dose prescription for trial arm two (if relevant).
+- recurrence_dict: The dictionary for tumour volume and recurrence-related keywords.
+- comparison_struct_dict: The dictionary for structure-related keywords (e.g., sternum, carina, spinal cord, these will vary depending on cancer site).
+- ctv_names: The dictionary for tumour bed (CTV_TB) names in different formats as denoted by the delineating clinician(s). 
+
 
 ## Output
 The pipeline generates:
@@ -80,7 +93,6 @@ The pipeline generates:
 
 ## Licence
 This project is licensed under the MIT Licence.
-
 
 ## Future Development
 
