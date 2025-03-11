@@ -1,6 +1,6 @@
 # Spatially Mapping Locoregional Cancer Recurrence 
 
-A Python-based framework for patient data classification and treatment planning analysis using Scikit-RT.
+A Python-based framework for patient data classification and treatment planning analysis using scikit-rt.
 
 ## Overview
 This project provides a set of tools for processing, classifying, and analysing patient imaging and treatment data using Scikit-RT. It includes modules for:
@@ -29,7 +29,7 @@ Ensure you have the following installed:
 - Python 3.10.13
 - scikit-rt 0.7.2
  
-For further details on the installation of scikit-rt please reference the scikit-rt repository and documentation. 
+For further details on the installation of scikit-rt please reference the [scikit-rt repository and documentation](https://github.com/scikit-rt/scikit-rt/blob/master/docs/markdown/installation.md)
 
 ## Usage
 ### Running the Classification Pipeline
